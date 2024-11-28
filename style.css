@@ -1,0 +1,179 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #111;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #f39c12;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('gym-hero.jpg') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+  }
+  
+  #hero .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #hero .hero-text {
+    color: #fff;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero .btn {
+    background: #f39c12;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  #hero .btn:hover {
+    background: #d87b08;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+ 
+  
+  /* Trainers Section */
+  #trainers {
+    padding: 4rem 0;
+  
+  }
+  
+  #trainers .trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  #trainers .trainer img {
+    margin-bottom: 1rem;
+  }
+  
+  #trainers h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #contact form .btn {
+    background: #111;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  #contact form .btn:hover {
+    background: #f39c12;
+  }
+  
+  /* Footer */
+  footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
